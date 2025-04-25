@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retiring the IRAP</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      color: #222;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #555;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    section#publications ul {
+      list-style: none;
+      padding: 0;
+    }
+    section#publications > ul > li {
+      margin-bottom: 30px;
+    }
+    section#publications a {
+      font-weight: bold;
+      color: #007acc;
+      text-decoration: none;
+    }
+    section#publications a:hover {
+      text-decoration: underline;
+    }
+    .publication-summary {
+      margin: 5px 0 0 15px;
+      font-size: 1em;
+      color: #555;
+    }
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .image-container img {
+      max-width: 45%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    footer {
+      padding: 20px 0;
+      background-color: #fff;
+    }
+    footer p {
+      margin: 0;
+      font-size: 0.9em;
+      color: #888;
+    }
+    #publications ul.sub-list {
+        list-style-type: disc;      /* solid bullet points */
+        padding: 0;                 /* reset default padding */
+        margin: 0 0 0.5em 2em;
+        line-height: 1;        /* optional: tweak line-height if you want the text a bit more compact */
+    }
+    section#publications > ul > li > ul.sub-list > li {
+      margin-bottom: 0.5em;
+    }
+    /* Fallback for any deeper nesting you might add later */
+    #publications ul ul {
+        margin-left: 2em;           /* indent all sub-lists by 2em */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Implicit Relational Assessment Procedure<br>is not fit for purpose.</h1>
+    <p>I recommend you do not use it.</p>
+  </header>
+  <section id="intro">
+    <p>After using the Implicit Relational Assessment Procedure (IRAP) in many publications in my PhD and first postdoc, I began to scrutinize many of the basic claims made about the task. I believe the evidence suggests that the IRAP is not fit for purpose, either as a measure of relational responding or of implicit attitudes. Due to both properties of the task and the research practices in the community, much of the published IRAP literature very likely non-replicable and non-credible. Below are some of the key publications highlighting these concerns. I recommend to people that they should not use the IRAP in their research, and instead pursue other lines of research.</p>
+  </section>
+  <section id="publications">
+    <h2>Key Publications</h2>
+    <ul>
+      <li>
+        <a href="https://www.sciencedirect.com/science/article/pii/S0005791624000740" target="_blank">Hussey (2025): Verification Report: A critical reanalysis of Vahey et al. (2015) “A meta-analysis of criterion effects for the Implicit Relational Assessment Procedure (IRAP) in the clinical domain”</a>
+        <p class="publication-summary">
+            The IRAP’s criterion validity is greatly overstated. Vahey et al. (2015) reports a meta-analysis of the IRAP’s clinical criterion validity, and has been frequently cited for sample size determination in subsequent IRAP publications for its claim that N = 37 is often sufficient. This article demonstrates that there are serious errors and biases in Vahey et al. (2015) at almost every stage of data extraction and analysis. I made the authors of Vahey et al. (2015) aware of some of these errors in 2019, and more in 2025, but they have declined to correct the original article.
+          </p>
+          <ul class="sub-list">
+            <li>Incorrect inclusions: 23 of the 56 (41.1%) included effect sizes do not meet the authors inclusion criteria as they were not criterion effects (i.e., did not involve a second variable other than the IRAP).</li>
+            <li>Incorrect omissions: a large number of additional effect sizes meeting inclusion criteria (360 additional effect sizes in addition to the 56 included). There is evidence of selection bias for including larger effect sizes and excluding smaller ones.</li>
+            <li>Incorrect effect size conversions: e.g., treating η_p² as η².</li>
+            <li>Data discrepancies: effect sizes reported in Vahey et al. (2015) are inconsistent, e.g., different results reported in the forest plot vs funnel plot, forest plot vs. the supplementary data.</li>
+            <li>Weighted mean effect sizes were calculated incorrectly.</li>
+            <li>Results cannot not be reproduced from the original data using the SPSS script the authors state they employed.</li>
+            <li>A new meta-analysis correcting the detected errors finds an effect size less than half the size of the original (r = .22). Updated power analyses suggest that N = 346 is needed whereas Vahey et al. (2015) recommended N = 37. Results from Hussey (2023) demonstrate that no published IRAP study to date has met this sample size, reemphasizing that the IRAP literature is likely severely underpowered and therefore rife with false positive results.</li>
+          </ul>
+        </li>
+      <li>
+        <a href="https://osf.io/preprints/psyarxiv/ge3k7_v1" target="_blank">Hussey & Drake (2020): The Implicit Relational Assessment Procedure demonstrates poor internal consistency and test-retest reliability: A meta-analysis</a>
+        <p class="publication-summary">This file-drawer meta-analysis of published and unpublished results (N = 1839) suggests the IRAP’s internal consistency is poor (α = .49) and its test-retest reliability is very poor (ICC2 = .10). If scores are calculated for individual trial types as many IRAP proponents argue for, both forms of reliability are very poor (α = .27, ICC2 = .18). Low reliability reduces statistical power and replicability, suggesting that many published results may be false positives.</p>
+      </li>
+      <li>
+        <a href="https://www.sciencedirect.com/science/article/pii/S2212144723000820" target="_blank">Hussey (2023): A systematic review of null hypothesis significance testing, sample sizes, and statistical power in research using the Implicit Relational Assessment Procedure</a>
+        <p class="publication-summary">Sample sizes in IRAP studies are extremely low – lower than in social psychology prior the start of the replication crisis – and have not risen meaningfully over time. Very low samples imply low statistical power, and contribute to poor replicability.</p>
+      </li>
+      <li>
+        <a href="https://doi.org/10.31234/osf.io/sp6jx" target="_blank">Hussey & Drake (2020): The Implicit Relational Assessment Procedure is not very sensitive to the attitudes and learning histories it is used to assess</a>
+        <p class="publication-summary">There is consensus among IRAP researchers that IRAP effects are biased in some way. O’Shea et al. (2016) called this a positive framing bias, and Finn, Barnes-Holmes, et al. (2016, 2018) refer to this generic pattern as the single trial type dominance effect. While there is disagreement about its cause, the presence, replicability, and generalizability of these biases in IRAP effects is apparently uncontroversial. However, the necessary implications of this confound are not fully appreciated. This article uses a large open data set (N = 753) of IRAPs in multiple domains to show that a) majority of variance in IRAP effects is attributable to the generic pattern rather than the stimuli domain being assessed by the IRAP, and b) that this pattern is observed even when nonsense stimuli are used. Given that many IRAP studies conclusions are based on the presence of non-zero IRAP effects, and these IRAP effects are observed regardless of the stimuli employed in the task, this implies that many conclusions in the IRAP literature are invalid or erroneous, and merely the result of a statistical artifact.</p>
+      </li>
+      <li>
+        <a href="https://doi.org/10.31234/osf.io/4gsxq" target="_blank">Hussey (2023): The Implicit Relational Assessment Procedure’s trial-types are not independent</a>
+        <p class="publication-summary">A key rationale for using the IRAP over other more reliable and valid measures such as the IAT is that its four trial types are supposedly functionally independent of one another, but little evidence is presented for this. This analysis of 1464 participants across 35 IRAPs in 16 different domains suggest that the IRAP trial types are not independent and are typically correlated with one another.</p>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1016/j.cbpra.2012.03.002" target="_blank">Hussey & Barnes-Holmes (2012): The Implicit Relational Assessment Procedure as a measure of implicit depression and the role of psychological flexibility</a>
+        <p class="publication-summary">This article was my bachelor's thesis project, and the results reported in this article are heavily p-hacked, with the knowledge of both authors (although not a full understanding that p-hacking was bad, at the time). Specifically, we used optional stopping and flexibility in data processing to obtain a significant result. At least one unpublished conceptual replication of this study using the RRT, a similar implicit measure, found null results. I no longer believe the claims in this article are credible.</p>
+      </li>
+      <li>
+        <a href="https://chaddrake.com/2022/12/12/hello-world/" target="_blank">Drake (2022): Rebutting a Revisionist History of the Implicit Relational Assessment Procedure</a>
+        <p class="publication-summary">A blog post by Chad Drake detailing his own negative experiences in dealing with the IRAP and its research culture.</p>
+      </li>
+    </ul>
+  </section>
+  <footer>
+    <p>&copy; 2025 Ian Hussey</p>
+  </footer>
+</body>
+</html>
